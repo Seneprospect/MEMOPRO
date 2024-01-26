@@ -1,0 +1,16 @@
+.podcast {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .episodes {
+    margin-top: 10px;
+  }
+  
+  .episode {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  

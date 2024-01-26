@@ -1,0 +1,86 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #7ee509; /* Couleur d'arrière-plan */
+}
+.card-img-logo {
+width:  70px;
+height: 45px;
+}
+.card-img-top {
+    width:  45px;
+    height: 45px;
+    border-radius: 10%;
+    }
+    
+
+.navbar-brand {
+    color: #fff; /* Couleur du texte */
+}
+
+.nav-link {
+    color: #fff; /* Couleur du texte */
+}
+
+/* Style de la section "Découvrir" */
+.container {
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Ombre */
+    transition: 0.3s; /* Transition en survol */
+    
+   
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Ombre plus prononcée au survol */
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+.text {
+    margin-left: 10px; /* Ajoute un espacement entre l'image et le texte */
+    font-size: 16px; /* Taille de police du texte */
+    color: #333; /* Couleur du texte */
+}
+.card-text-img {
+    display: flex; /* Utilisez un affichage flexbox pour disposer l'image et le texte côte à côte */
+    align-items: center; /* Alignez verticalement le contenu */
+    margin-top: 7%;
+    margin-left: 7%;
+}
+footer {
+    background-color: #248000; /* Couleur de fond bleu foncé */
+    color: white; /* Couleur du texte dans le footer */
+    padding: 20px; /* Espacement interne pour le contenu du footer */
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les éléments */
+  }
+  
+  /* Style pour les icônes (par exemple, pour les rendre bleues) */
+  .icon-container i {
+    color: rgb(220, 220, 232); /* Couleur de l'icône */
+    /* Autres styles pour les icônes */
+  }
+  footer div:divfoot {
+    margin-bottom: 0%; /* Supprime la marge en bas du dernier paragraphe (texte) */
+  }
+  
+
+
