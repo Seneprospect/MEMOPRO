@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => (
   <body>
@@ -25,6 +25,13 @@ const Header = () => (
             </li>
             <li className="nav-item">
               <NavLink to="/mes-abonnements" className="nav-link" activeClassName="active-link">Mes Abonnements</NavLink>
+            </li>
+          </ul>
+          
+          {/* Utiliser ml-auto pour aligner à droite */}
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link to="/login" className="nav-link" activeClassName="active-link">Connexion</Link>
             </li>
           </ul>
         </div>

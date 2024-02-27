@@ -1,0 +1,35 @@
+{
+    "episodesData": [
+      {
+        "id": 1,
+        "title": "Xam sa diine",
+        "description": "ndenkaane gii deglu ko yow jullit bi ndax nga mana xam sa diine...",
+        "audioSrc": "public/audios/audio2.mp3",
+        "date": "2022-01-15"
+      },
+      {
+        "id": 2,
+        "title": "Episode 2",
+        "description": "Description of Episode 2",
+        "audioSrc": "public/audios/audio3.mp3",
+        "date": "2022-01-20"
+      }
+    ],
+    "podcastsData": [
+      {
+        "id": 1,
+        "title": "Xutba Imaam tuuba",
+        "description": "Waxtaan ci lu ajju ci itté",
+        "image": "/images/podcast-image.jpg",
+        "episodes": [1, 2]
+      },
+      {
+        "id": 2,
+        "title": "Podcast 2",
+        "description": "Description of Podcast 2",
+        "image": "image2.jpg",
+        "episodes": [2]
+      }
+    ]
+  }
+  

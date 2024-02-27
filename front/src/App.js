@@ -5,23 +5,29 @@ import Home from './pages/home';
 import EpisodeList from './components/EpisodeList';
 import Header from './components/header';
 import Footer from './components/footer';
-
+import Login from './components/Login';
 
 
 function App() {
   return (
 
-    <div className="wrapper">
+    <div className="app-wrapper">
       <Router>
-      <Header />
-        <Routes>
         
+      <Header />
+
+      <Routes>
+      
           <Route path="/" element={<Home />}>
          
-          <Route path="/podcasts/:podcastId" element={<EpisodeList />} />     
+          <Route path="/podcasts/:podcastId" element={<EpisodeList />} />
+          <Route path="/login" element={<Login />} />
+              
           </Route>
         </Routes>
+
         <Footer />
+        
       </Router>
     </div>
   );

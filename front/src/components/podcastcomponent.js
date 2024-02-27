@@ -13,11 +13,13 @@ function PodcastComponent() {
   }
 
   return (
-    <div>
-      <h2>{podcast.title}</h2>
+    <div className="title-and-button">
+      
+      <h1 className="podcast-title">{podcast.title}</h1>
       <button className="subscribe-button">S'abonner</button>
+
       <EpisodeList episodes={podcast.episodes} />
-      <Link to="/">Retour à l'accueil</Link> {/* Ajout du lien de retour à l'accueil */}
+      <Link to="/">Retour à l'accueil</Link> 
     </div>
   );
 }

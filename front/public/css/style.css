@@ -23,12 +23,16 @@ basic
 ---------------------------------------------------------------------*/
 
 body {
-     color: #666666;
-     font-size: 14px;
-     font-family: 'Roboto', sans-serif;
-     line-height: 1.80857;
-     font-weight: normal;
-}
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .app-wrapper {
+     flex: 1;
+   }
 
 a {
      color: #1f1f1f;

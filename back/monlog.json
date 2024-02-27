@@ -1,0 +1,8 @@
+{
+  "email": "utilisateur@example.com",
+  "password": "motdepassehashé",
+  "subscriptions": [
+    "605dadd8f4d5f839b4759e6a",
+    "605dadd8f4d5f839b4759e6b"
+  ]
+}
